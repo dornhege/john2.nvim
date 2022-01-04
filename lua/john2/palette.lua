@@ -1,6 +1,6 @@
 local colors = {
 	fg = "#d0d0d0",
-	bg = "#1f2227",
+	bg = "#1d2325",
 	alt_bg = "#282c34",
 	dark = "#282c34",
 	accent = "#BBBBBB",
@@ -34,6 +34,7 @@ local colors = {
 	purple_test = "#ff007c",
 	cyan_test = "#00dfff",
 	ui_blue = "#264F78",
+	sign_column = "#212729",
 	search_gray = "#303030",
 	search_yellow = "#d7d700",
 	special_orange = "#ffaf00",
@@ -57,6 +58,8 @@ local colors = {
 	todo = "#ffaf00",
 	todo_bg = "#121212",
 	string = "#ff5f87",
+	error_red_bg = "#800000",
+	error_highlight = "#c0c0c0",
 }
 
 return colors

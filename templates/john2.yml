@@ -5,7 +5,7 @@ information:
 
 palette:
   fg: '#d0d0d0'
-  bg: '#1f2227'
+  bg: '#1d2325'
   alt_bg: '#282c34'
   dark: '#282c34'
   accent: '#BBBBBB'
@@ -46,6 +46,7 @@ palette:
 
   ui_blue: '#264F78'
 
+  sign_column: '#212729'
   search_gray: '#303030'
   search_yellow: '#d7d700'
   special_orange: '#ffaf00'
@@ -69,9 +70,11 @@ palette:
   todo: '#ffaf00'
   todo_bg: '#121212'
   string: '#ff5f87'
+  error_red_bg: '#800000'
+  error_highlight: '#c0c0c0'
 highlights:
   Normal: 'fg bg'
-  SignColumn: '- bg'
+  SignColumn: '- sign_column'
   MsgArea: 'fg bg'
   ModeMsg: 'fg bg'
   MsgSeparator: 'fg bg'
@@ -118,7 +121,7 @@ highlights:
   Directory: 'dark_cyan'
   SpecialKey: 'dark_green - b'
   Title: 'light_blue - b'
-  ErrorMsg: 'error_red bg b'
+  ErrorMsg: 'error_highlight error_red_bg b'
   Search: 'search_gray search_yellow'
   IncSearch: 'search_gray search_yellow'
   Substitute: 'light_gray search_orange'
@@ -136,7 +139,7 @@ highlights:
   Identifier: 'teal'
   Function: 'light_blue'
   Operator: 'statement_yellow'
-  Type: 'type_green'
+  Type: 'type_green - -'
   StorageClass: 'dark_cyan'
   Structure: 'type_green'
   Typedef: 'type_green'
@@ -162,7 +165,7 @@ highlights:
   Italic: '- - i'
   Ignore: 'cyan bg b'
   Todo: 'todo todo_bg'
-  Error: 'error_red bg b'
+  Error: 'error_highlight error_red_bg b'
   TabLine: 'light_gray alt_bg'
   TabLineSel: 'fg alt_bg'
   TabLineFill: 'fg alt_bg'
@@ -347,8 +350,8 @@ LSP:
   BufferInactiveSign: 'gray alt_bg'
   BufferInactiveTarget: 'red alt_bg b'
 
-  StatusLine: 'alt_bg light_gray'
-  StatusLineNC: 'alt_bg gray'
+  StatusLine: 'light_gray alt_bg'
+  StatusLineNC: 'gray alt_bg'
   StatusLineSeparator: 'alt_bg gray'
   StatusLineTerm: 'alt_bg gray'
   StatusLineTermNC: 'alt_bg gray'
