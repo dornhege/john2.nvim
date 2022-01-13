@@ -37,6 +37,7 @@ local colors = {
 	sign_column = "#293032",
 	search_gray = "#303030",
 	search_yellow = "#d7d700",
+	search_dark_yellow = "#808000",
 	special_orange = "#ffaf00",
 	comment_blue = "#00afd7",
 	special_comment_orange = "#d78700",
