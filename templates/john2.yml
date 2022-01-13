@@ -122,7 +122,7 @@ highlights:
   SpecialKey: 'dark_green - b'
   Title: 'light_blue - b'
   ErrorMsg: 'error_highlight error_red_bg b'
-  Search: 'search_yellow search_gray'
+  Search: 'search_gray search_orange'
   IncSearch: 'search_gray search_yellow'
   Substitute: 'light_gray search_orange'
   MoreMsg: 'dark_green'
