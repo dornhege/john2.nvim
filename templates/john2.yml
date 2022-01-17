@@ -48,7 +48,7 @@ palette:
 
   sign_column: '#293032'
   search_gray: '#303030'
-  search_yellow: '#d7d700'
+  search_yellow: '#fff700'
   search_dark_yellow: '#d0b000'
   special_orange: '#ffaf00'
   comment_blue: '#00afd7'
