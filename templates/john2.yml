@@ -98,7 +98,7 @@ highlights:
   VertSplit: 'bg fg'
   CursorLine: '- dark'
   CursorColumn: '- dark'
-  ColorColumn: '- dark'
+  ColorColumn: '- slightly_off_bg'
   NormalFloat: '- dark'
   Visual: '- ui_blue'
   VisualNOS: '- alt_bg'
