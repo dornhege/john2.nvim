@@ -6,6 +6,7 @@ information:
 palette:
   fg: '#d0d0d0'
   bg: '#1d2325'
+  slightly_off_bg: '#21282a'
   alt_bg: '#282c34'
   dark: '#282c34'
   accent: '#BBBBBB'
